@@ -289,6 +289,9 @@ function decideScreen() {
 }
 
 function draw() {
+	let c = document.getElementById("defaultCanvas1");
+	c.style.width = "25.19vw";
+	c.style.height = `${25.19 * 20 / 21}vw`;
 	
 	if(!bricksFinished) {
 		background(0);
